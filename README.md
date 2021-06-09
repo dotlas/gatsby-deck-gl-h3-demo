@@ -1,6 +1,6 @@
 # kitch-maps
 
-A Kepler.gl powered Gatsby site for cloud kitchen operations.
+A [Kepler.gl](https://github.com/keplergl/kepler.gl) powered [Gatsby](https://github.com/gatsbyjs/gatsby) site for cloud kitchen operations.
 
 ## Usage
 
@@ -10,8 +10,8 @@ A Kepler.gl powered Gatsby site for cloud kitchen operations.
   yarn
   ```
 
-- Configure an environment variable, `MAPBOX_ACCESS_TOKEN`, for mapbox.
-  Separate `.env` files must be provided for `development` and `production` (refer to this guide).
+- Configure an environment variable, `MAPBOX_ACCESS_TOKEN`, for a [mapbox access token](https://docs.mapbox.com/help/glossary/access-token/).
+  Separate `.env` files must be provided for `development` and `production` (refer to this [guide](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)).
 
 - Build and serve the [site](https://localhost:9000):
 
