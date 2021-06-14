@@ -1,6 +1,6 @@
 # kitch-maps
 
-A [Kepler.gl](https://github.com/keplergl/kepler.gl) powered [Gatsby](https://github.com/gatsbyjs/gatsby) site for cloud kitchen operations.
+A [deck.gl](https://github.com/visgl/deck.gl) powered [Gatsby](https://github.com/gatsbyjs/gatsby) site for cloud kitchen operations.
 
 ## Usage
 
@@ -18,3 +18,7 @@ A [Kepler.gl](https://github.com/keplergl/kepler.gl) powered [Gatsby](https://gi
   ```bash
   npm run build && npm run serve
   ```
+
+## Tasks
+
+- [ ] Add `eslint` configuration.
