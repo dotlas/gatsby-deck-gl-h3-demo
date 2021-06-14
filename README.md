@@ -18,7 +18,3 @@ A [deck.gl](https://github.com/visgl/deck.gl) powered [Gatsby](https://github.co
   ```bash
   npm run build && npm run serve
   ```
-
-## Tasks
-
-- [ ] Add `eslint` configuration.
