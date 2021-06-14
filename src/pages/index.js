@@ -7,8 +7,13 @@
 import React, { useCallback, useState } from "react"
 import DeckGL from "@deck.gl/react"
 import { H3HexagonLayer } from "@deck.gl/geo-layers"
+import { StaticMap } from "react-map-gl"
+import mapboxgl from "mapbox-gl"
 
-import { StaticMap } from "../components/static-map"
+import "mapbox-gl/dist/mapbox-gl.css"
+
+// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
 
 const DATA = require("../../data/riyadh.json")
 
@@ -70,7 +75,10 @@ const App = () => {
 
   return (
     <DeckGL initialViewState={INITIAL_VIEW_STATE} controller>
-      <StaticMap />
+      <StaticMap
+        mapboxApiAccessToken={process.env.MAPBOX_ACCESS_TOKEN}
+        mapStyle="mapbox://styles/kelvindecosta/ckpvh38th106317ofj1q4ll3x"
+      />
       {/* Neigbors of selected centers */}
       {neighbors && (
         <H3HexagonLayer
