@@ -16,6 +16,7 @@
     "assert": "^2.0.0",
     "deck.gl": "^8.4.17",
     "gatsby": "^3.6.2",
+    "gatsby-plugin-gatsby-cloud": "^2.7.1",
     "gatsby-plugin-preact": "^5.7.0",
     "postcss": "^8.3.0",
     "preact": "^10.5.13",
