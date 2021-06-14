@@ -85,7 +85,7 @@ const App = () => {
           {...{
             id: "h3-neighbors",
             data: getHexagons(
-              hovered ? neighbors.concat(getNeighbors(hovered)) : neighbors
+              hovered ? [...neighbors, ...getNeighbors(hovered)] : neighbors
             ),
             pickable: false,
             wireframe: false,
@@ -102,13 +102,12 @@ const App = () => {
         <H3HexagonLayer
           {...{
             id: "h3-selected-centers",
-            data: getHexagons(hovered ? selected.concat(hovered) : selected),
+            data: getHexagons(selected),
             pickable: true,
             wireframe: false,
             filled: true,
             extruded: false,
-            getFillColor: ({ hexagon }) =>
-              hexagon !== hovered ? [245, 158, 11] : [244, 63, 94],
+            getFillColor: () => [245, 158, 11],
             opacity: 0.75,
             coverage: 0.75,
             onClick: ({ object: { hexagon } }) => deselectCenter(hexagon),
@@ -126,7 +125,8 @@ const App = () => {
             wireframe: false,
             filled: true,
             extruded: false,
-            getFillColor: () => [255, 255, 255],
+            getFillColor: ({ hexagon }) =>
+              hexagon !== hovered ? [255, 255, 255] : [244, 63, 94],
             opacity: 0.25,
             coverage: 0.25,
             onClick: ({ object: { hexagon } }) => selectCenter(hexagon),
