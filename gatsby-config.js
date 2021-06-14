@@ -29,5 +29,11 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        allowList: ["MAPBOX_ACCESS_TOKEN"],
+      },
+    },
   ],
 }
