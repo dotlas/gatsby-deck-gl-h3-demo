@@ -5,10 +5,10 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "lint": "eslint .",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -27,8 +27,11 @@
     "react-map-gl": "^6.1.16"
   },
   "devDependencies": {
+    "eslint-import-resolver-alias": "^1.1.2",
+    "gatsby-plugin-eslint-config": "^1.0.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "prettier": "2.2.1",
+    "typescript": "^3.9.10",
     "worker-loader": "^3.0.8"
   },
   "repository": {

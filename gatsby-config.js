@@ -4,6 +4,15 @@ module.exports = {
     FAST_DEV: true,
   },
   plugins: [
+    // Linting
+    {
+      resolve: "gatsby-plugin-eslint-config",
+      options: {
+        extensions: ["js", "jsx", "ts", "tsx"],
+        failOnError: false,
+      },
+    },
+
     // Optimization
     "gatsby-plugin-preact",
     {
@@ -30,7 +39,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-env-variables`,
+      resolve: "gatsby-plugin-env-variables",
       options: {
         allowList: ["MAPBOX_ACCESS_TOKEN"],
       },

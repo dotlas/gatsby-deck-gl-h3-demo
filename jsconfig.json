@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // Module Resolution
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+
+  // File Inclusion
+  "exclude": ["node_modules", ".cache", "public"]
+}

@@ -2,8 +2,8 @@
  * A simple 404 error handler.
  */
 
-import React from "react"
 import { Link } from "gatsby"
+import React from "react"
 
 const ErrorPage = () => (
   <div>

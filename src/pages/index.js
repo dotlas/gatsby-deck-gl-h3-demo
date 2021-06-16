@@ -4,11 +4,11 @@
  * Format: { [center: string]: [selected: bool, neighbors: [string]] }
  */
 
-import React, { useCallback, useState } from "react"
-import DeckGL from "@deck.gl/react"
 import { H3HexagonLayer } from "@deck.gl/geo-layers"
-import { StaticMap } from "react-map-gl"
+import DeckGL from "@deck.gl/react"
 import mapboxgl from "mapbox-gl"
+import React, { useCallback, useState } from "react"
+import { StaticMap } from "react-map-gl"
 
 import "mapbox-gl/dist/mapbox-gl.css"
 
