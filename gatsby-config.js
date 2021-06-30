@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     // Linting
     {
-      resolve: "gatsby-plugin-eslint-config",
+      resolve: "eslint-plugin-gatsby",
       options: {
         extensions: ["js", "jsx", "ts", "tsx"],
         failOnError: false,

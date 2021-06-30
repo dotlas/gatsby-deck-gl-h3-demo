@@ -8,7 +8,9 @@
  */
 
 module.exports = {
-  extends: require.resolve("gatsby-plugin-eslint-config"),
+  plugins: ["gatsby"],
+
+  extends: ["plugin:gatsby/recommended"],
 
   settings: {
     "import/resolver": {

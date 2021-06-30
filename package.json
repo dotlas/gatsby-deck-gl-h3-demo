@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "eslint-import-resolver-alias": "^1.1.2",
-    "gatsby-plugin-eslint-config": "^1.0.1",
+    "eslint-plugin-gatsby": "npm:gatsby-plugin-eslint-config",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
     "prettier": "2.2.1",
     "typescript": "^3.9.10",

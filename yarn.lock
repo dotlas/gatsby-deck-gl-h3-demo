@@ -4537,6 +4537,13 @@ eslint-plugin-flowtype@^5.3.1:
     lodash "^4.17.15"
     string-natural-compare "^3.0.1"
 
+"eslint-plugin-gatsby@npm:gatsby-plugin-eslint-config":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint-config/-/gatsby-plugin-eslint-config-2.0.0.tgz#44d6d94718560c8026119218082321932f132223"
+  integrity sha512-3s3C07QSaHK2EAEbXmBE+8EFvbPjiHyMy20xCqGk8XN9dobcR0/QOIFAag3t8Gq8AJXGdBY0espO7wpWsvL7Ng==
+  dependencies:
+    eslint-webpack-plugin "^2.5.4"
+
 eslint-plugin-graphql@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-graphql/-/eslint-plugin-graphql-4.0.0.tgz#d238ff2baee4d632cfcbe787a7a70a1f50428358"
@@ -5360,13 +5367,6 @@ gatsby-plugin-env-variables@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-env-variables/-/gatsby-plugin-env-variables-2.1.0.tgz#6204113d214e8854cbc9f6e90c6650c7035e277c"
   integrity sha512-TNApeosvOcDxOoxZuzJ3rK4rbR2Fvzvweszn22U+z7bVtZ09G8/MtZg14l3HPXQBwqWjsWJH+PrRP+Z+7W7N/A==
-
-gatsby-plugin-eslint-config@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint-config/-/gatsby-plugin-eslint-config-1.0.1.tgz#c3c75874ace81fc28c21697a1f4301c3734f0eab"
-  integrity sha512-HwC1Hccay2KvgLEkLsZCdP7rEysdyFFRke0fagwOYgjSOwvoV0kXFMk2ZtKikVxciG4YQtd2aGiylrO3LZAJsg==
-  dependencies:
-    eslint-webpack-plugin "^2.5.4"
 
 gatsby-plugin-gatsby-cloud@^2.7.1:
   version "2.7.1"
