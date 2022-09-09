@@ -1,7 +1,7 @@
 {
-  "name": "kitch-maps",
+  "name": "gatsby-deck-gl-h3-demo",
   "private": true,
-  "description": "A deck.gl powered Gatsby site for cloud kitchen operations",
+  "description": "A Gatsby site that demonstrates deck.gl and uber's H3.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {

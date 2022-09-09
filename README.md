@@ -1,6 +1,6 @@
-# kitch-maps
+# gatsby-deck-gl-h3-demo
 
-A [deck.gl](https://github.com/visgl/deck.gl) powered [Gatsby](https://github.com/gatsbyjs/gatsby) site for cloud kitchen operations.
+A [Gatsby](https://github.com/gatsbyjs/gatsby) site that demonstrates [`deck.gl`](https://github.com/visgl/deck.gl) and [uber's `H3`](https://h3geo.org/).
 
 ## Usage
 
