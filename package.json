@@ -15,7 +15,7 @@
   "dependencies": {
     "assert": "^2.0.0",
     "deck.gl": "^8.4.17",
-    "gatsby": "^3.6.2",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-env-variables": "^2.1.0",
     "gatsby-plugin-gatsby-cloud": "^2.7.1",
     "gatsby-plugin-preact": "^5.7.0",
