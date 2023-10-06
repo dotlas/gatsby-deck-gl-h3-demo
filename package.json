@@ -19,7 +19,7 @@
     "gatsby-plugin-env-variables": "^2.1.0",
     "gatsby-plugin-gatsby-cloud": "^2.7.1",
     "gatsby-plugin-preact": "^5.7.0",
-    "postcss": "^8.3.0",
+    "postcss": "^8.4.31",
     "preact": "^10.5.13",
     "preact-render-to-string": "^5.1.19",
     "react": "^17.0.1",
